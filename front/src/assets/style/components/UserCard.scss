@@ -1,0 +1,93 @@
+@use '@/assets/style/constants';
+
+.card-contents-box {
+  display: flex;
+  width: 100%;
+  min-width: 14rem;
+  max-width: 18rem;
+  border-radius: 4px;
+  flex-direction: column;
+  background-color: #ffffff;
+  gap: 1rem;
+  margin: 0 0.8rem 0.8rem 0;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.04) 0 2px 16px 4px;
+
+  &:hover {
+    box-shadow: rgba(0, 0, 0, 0.08) 0 2px 16px 4px;
+    transform: translateY(-5px);
+    transition: 0.25s;
+    cursor: pointer;
+  }
+
+  .card-user-profile-img {
+    width: 100%;
+    height: 10rem;
+    position: relative;
+
+    img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: block;
+      object-fit: cover;
+    }
+  }
+
+  .card-user-info {
+    display: flex;
+    padding: 1rem;
+    flex: 1 1 0;
+    flex-direction: column;
+
+    &-main {
+      display: block;
+
+      .card-user-name {
+        display: block;
+        font-weight: bold;
+        font-size: 1rem;
+        margin: 0 0 0.25rem;
+        line-height: 1.5;
+        word-break: break-word;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      .card-user-intro {
+        margin: 0 0 1.5rem;
+        word-break: break-word;
+        overflow-wrap: break-word;
+        font-size: 0.875rem;
+        line-height: 1.5;
+        height: 3.9375rem;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        color: var(--text2);
+      }
+    }
+
+    &-sub {
+      display: flex;
+      flex-direction: row;
+
+      .card-separator {
+        font-weight: 900;
+        margin-inline: 0.25rem;
+      }
+
+      .card-follow-count,
+      .card-separator,
+      .card-post-count {
+        font-size: 0.8rem;
+        line-height: 1;
+        color: #868e96;
+      }
+    }
+  }
+}

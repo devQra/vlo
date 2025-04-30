@@ -1,0 +1,94 @@
+$gray-d1: #f7f7f7;
+$gray-d2: #d7d7d7;
+$gray-d3: #b7b7b7;
+$g1: #12b886;
+$g2: #20c997;
+
+.clickEventGrey {
+  cursor: pointer;
+  background-color: $gray-d1;
+
+  &:hover {
+    background-color: $gray-d2;
+  }
+
+  &:active {
+    background-color: $gray-d3;
+  }
+}
+
+.action {
+  &:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+    transition: 0.2s;
+  }
+
+  &:active {
+    transform: translateY(0);
+  }
+}
+
+.btn-go-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+  position: fixed;
+  width: 2.5rem;
+  height: 2.5rem;
+  bottom: 3rem;
+  right: 5rem;
+  background-color: #eaeaea;
+}
+
+.btn-submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  height: 2.5rem;
+  background-color: $gray-d1;
+  color: #ffffff;
+  font-size: 1.125rem;
+  font-weight: 700;
+  padding-inline: 1.5rem;
+
+  &:hover {
+    background-color: $gray-d2;
+  }
+
+  &:active {
+    background-color: $gray-d3;
+  }
+}
+
+.profile-img {
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+}
+
+.contour {
+  background: #e9ecef;
+  width: 100%;
+  height: 1px;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.separator {
+  margin-inline: 0.5rem;
+}
+
+.btn-submit {
+  bottom: 2rem;
+  right: 50%;
+  background-color: $g1;
+}

@@ -1,0 +1,16 @@
+@use '@/assets/style/constants';
+@use '@/assets/style/base';
+
+#app {
+  width: 100%;
+  display: flex;
+  font-weight: normal;
+  padding-left: 4%;
+}
+
+a,
+div,
+.green {
+  text-decoration: none;
+  color: black;
+}

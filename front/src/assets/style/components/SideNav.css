@@ -1,0 +1,119 @@
+.clickEventGrey {
+  cursor: pointer;
+  background-color: #f7f7f7;
+}
+
+.clickEventGrey:hover {
+  background-color: #d7d7d7;
+}
+
+.clickEventGrey:active {
+  background-color: #b7b7b7;
+}
+
+.action:hover {
+  cursor: pointer;
+  transform: translateY(-5px);
+  transition: 0.2s;
+}
+
+.action:active {
+  transform: translateY(0);
+}
+
+.btn-go-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+  position: fixed;
+  width: 2.5rem;
+  height: 2.5rem;
+  bottom: 3rem;
+  right: 5rem;
+  background-color: #eaeaea;
+}
+
+.btn-submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  height: 2.5rem;
+  background-color: #12b886;
+  color: #ffffff;
+  font-size: 1.125rem;
+  font-weight: 700;
+  padding-inline: 1.5rem;
+}
+
+.btn-submit:hover {
+  background-color: #20c997;
+}
+
+.btn-submit:active {
+  background-color: #12b886;
+}
+
+.profile-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.contour {
+  background: #e9ecef;
+  width: 100%;
+  height: 1px;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.separator {
+  margin-inline: 0.5rem;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 2rem 0.5rem;
+  height: 100vh;
+  z-index: 10;
+  justify-content: space-between;
+  border: 0.5px solid #d7d7d7;
+  background-color: #f7f7f7;
+}
+
+.top-container,
+.bot-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  gap: 1rem;
+}
+
+.top-container a, .top-container p,
+.bot-container a,
+.bot-container p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.6rem;
+  border-radius: 15%;
+}
+
+.alram-container {
+  transition: all 0.4s ease;
+  background-color: #f7f7f7;
+}
+
+/*# sourceMappingURL=SideNav.css.map */
