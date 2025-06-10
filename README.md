@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=14B885&text=VLO&height=200&animation=fadeIn&fontColor=ddd8ea)
+![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=14B885&text=VLO&height=200&animation=fadeIn&fontColor=ffffff)
 #### 2023년 2학기 개인 프로젝트
 
 ### 🎯&nbsp;Subject
